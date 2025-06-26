@@ -1,8 +1,38 @@
 # client-order-system
-This project is a comprehensive Web-based Client Order and Payment Management System developed to streamline and automate client fee processing and order tracking operations. Built using JSP, HTML, CSS, JavaScript, and SQL, the system offers a user-friendly interface combined with robust backend functionality.
+A web-based Client Order and Payment Management System built with JSP, HTML, CSS, JavaScript, and SQL. It includes features like fee tracking, client data handling, report generation, and multi-user support. Deployed on Apache Tomcat, the system ensures efficient performance and simplifies client and payment management processes.
 
-The application supports multiple modules, including client data management, payment tracking, and report generation. Users can efficiently manage client records, monitor fee dues, and generate detailed reports for administrative and accounting purposes. A key feature of the system is its multi-user support, allowing different user roles to access and manage the system securely and concurrently.
 
-The system was deployed on the Apache Tomcat server to ensure stable and efficient performance. Emphasis was placed on clean UI design and secure, reliable backend processing. The project showcases end-to-end full-stack development—from database design and server-side logic to client-side interactivity.
+**How to Run the Project**
+This JSP-based web application was developed using the following technologies:
+•	Front End: HTML, CSS, JavaScript
+•	Application Logic: Java Server Pages (JSP)
+•	Back End: SQL (MySQL)
+Software Requirements
+•	XAMPP (includes Apache Tomcat and MySQL servers)
+•	Visual Studio Code (as the code editor)
 
-This project is ideal for small to mid-sized businesses seeking a simple yet effective solution for managing client payments and orders. It also serves as a demonstration of integrating front-end and back-end technologies into a cohesive, production-ready web application.
+**Steps to Run the Project**
+1.	Install XAMPP
+Download and install XAMPP, which includes both Tomcat (for JSP/HTML) and MySQL (for the database).
+2.	Start Servers
+Open the XAMPP Control Panel and start:
+o	Tomcat (for running JSP and HTML pages)
+o	MySQL (for running the SQL database)
+3.	Configure Project Files
+o	Place the project folder in the appropriate Tomcat webapps directory (usually C:\xampp\tomcat\webapps\).
+o	Open phpMyAdmin and import the provided SQL file to set up the database.
+4.	Run the Application
+o	Open a browser and navigate to: http://localhost:8080/YourProjectFolder/
+5.	Edit Code (Optional)
+o	Open the project in Visual Studio Code for development or customization.
+
+
+
+
+
+
+
+
+
+
+
