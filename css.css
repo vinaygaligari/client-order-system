@@ -1,0 +1,28 @@
+body{
+	text-align:center;
+	color:white;
+	
+	padding:5px;
+	font-family:Candara;
+	font-size:18px;
+	background-image: url(login.jpg);
+	
+}
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+   
+}
+
+input[type=text], input[type=password] {
+    
+    padding: 10px 17px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+}
